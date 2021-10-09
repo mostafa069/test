@@ -65,3 +65,15 @@ width: 100%;
 .section-1 {
 background:#27323a ;
 }
+.section-2 {
+    background: #22262e;
+}
+.green {
+    color: #35bbaa;
+}
+.h2 {
+    color: #815ab4;
+}
+.bold {
+    font-size: 4rem;
+}
