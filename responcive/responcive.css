@@ -1,0 +1,49 @@
+@media screen and (max-width:768px) {
+    
+.navbar-toggler {
+    position: relative;
+    right: -70px;
+    top: -29px;
+
+}
+.pad {
+    padding-right: 0rem !important;
+    margin-right: 2rem;
+}
+.bi-cart-fill {
+    position: relative;
+    top: 7px;
+    right: 23px;
+}
+.img {
+    position: relative;
+    right: 96px;
+    top: 31px;
+
+}
+.dark {
+    top: 2rem !important;
+    
+}
+.dark>h2 ,p ,button {
+    font-size: 1.2rem;
+}
+.bg {
+    height:230px !important;
+
+}
+.bot {
+    bottom: 0.5rem;
+    padding-right: 3rem;
+    top: 3rem;
+
+    
+}
+.bot >h2 , p ,button {
+    font-size: 1rem;
+   
+}
+.item {
+    text-align: center;
+}
+}

@@ -1,0 +1,67 @@
+htm {
+    font-size: 100%;
+    
+}
+body{
+    font-family: dana !important;
+}
+@font-face {
+    font-family: "dana";
+    src: url(../font/dana-medium\ \(2\).ttf) ;
+}
+.data {
+  justify-content: center !important;
+  width: 0 !important;
+}
+.pad {
+    padding-right: 17rem !important;
+}
+input [type=text] {
+ width: 130px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+background-image: url("https://img.icons8.com/windows/32/000000/search--v1.png");
+background-position: 10px 10px; 
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;
+transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+width: 100%;
+}
+.btn i {
+    display: none;
+}
+.btn:hover i {
+    display: inline;
+}
+.bg {
+    background-color:rgb(44, 42, 42);
+    height: 710px;
+}
+.mg {
+    margin: 6rem 0rem 0rem 3rem;
+}
+.bot {
+    bottom: 13rem;
+}
+.font-size {
+    font-size: 7rem;
+    color: #3e51da;
+}
+.ico{
+    position: relative !important;
+    right: 107px;
+
+}
+.active-1 {
+    background-color: #27c9b8;
+    
+}
+.section-1 {
+background:#27323a ;
+}
