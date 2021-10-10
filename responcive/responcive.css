@@ -32,23 +32,32 @@
     font-size: 1.2rem;
 }
 .bg {
-    height:175px !important;
+    height:250px !important;
 
 }
 .bot {
-    bottom: 0.5rem;
-
-    
+    bottom: 3.5rem;
+    padding-right: 68px;
 }
+
 .bot >h2 , p ,button {
     font-size: 1rem;
 
-   
-}
+}  
+
 .item {
     text-align: center;
 }
 .padding {
     padding-top: 5rem;
+}
+.ico{
+    right: 98px;
+}
+.dark-1 {
+    z-index:1;
+}
+.span-1 {
+    top: -14px !important;
 }
 }

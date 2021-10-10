@@ -132,3 +132,15 @@ background:#27323a ;
     font-size: 6rem;
     color: #47bfa4;
 }
+footer {
+    background: #808e93;
+}
+footer li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 3px solid #11d5f5;
+    border-radius: 49px;
+    margin-left: 1rem;
+}
