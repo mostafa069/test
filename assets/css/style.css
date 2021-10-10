@@ -144,3 +144,10 @@ footer li::before {
     border-radius: 49px;
     margin-left: 1rem;
 }
+.develop {
+    transition: width 2s ;
+}
+.develop:hover {
+    width: 130px;
+ 
+}
