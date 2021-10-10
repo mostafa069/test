@@ -9,6 +9,7 @@ body{
     font-family: "dana";
     src: url(../font/dana-medium\ \(2\).ttf) ;
 }
+
 .data {
   justify-content: center !important;
   width: 0 !important;
@@ -64,4 +65,82 @@ width: 100%;
 }
 .section-1 {
 background:#27323a ;
+}
+.section-2 {
+    background: #22262e;
+}
+.green {
+    color: #35bbaa;
+}
+.h2 {
+    color: #815ab4;
+}
+.bold {
+    font-size: 4rem;
+}
+.section-3 {
+    background:#333 ;
+}
+.bg-dark{
+    position: relative;
+}
+/* .bg-dark img {
+    position: relative;
+    z-index: 1;
+} */
+ .dark-1 {
+
+    z-index: -1;
+    color: blue;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 2.5rem;
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 4rem;
+    
+} 
+.bg-dark:hover .dark-1 {
+    z-index: 1;
+    
+}
+ .span-1 {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    transition: all 0.3s;
+} 
+.bg-dark:hover .span-1 {
+    top: 3px;
+}
+.section-4 {
+    background: #283139;
+}
+.bii {
+    font-size: 6rem;
+    color: #ec6d5f;
+}
+.biii {
+    font-size:6rem;
+    color: #1fa0e3;
+}
+.biit {
+    font-size: 6rem;
+    color: #47bfa4;
+}
+footer {
+    background: #808e93;
+}
+footer li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 3px solid #11d5f5;
+    border-radius: 49px;
+    margin-left: 1rem;
 }
