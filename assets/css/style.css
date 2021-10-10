@@ -151,3 +151,19 @@ footer li::before {
     width: 130px;
  
 }
+.bii ,.biii ,.biit {
+    transition: 1s;
+
+}
+ .bii:hover {
+    color: thistle;
+    font-size: 7rem;
+}
+.biii:hover {
+    color: thistle;
+    font-size: 7rem;
+}
+ .biit:hover {
+    color: thistle;
+    font-size: 7rem;
+ }
