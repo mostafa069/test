@@ -6,6 +6,9 @@
     top: -29px;
 
 }
+.navbar {
+    position: unset;
+}
 .pad {
     padding-right: 0rem !important;
     margin-right: 2rem;
@@ -29,21 +32,23 @@
     font-size: 1.2rem;
 }
 .bg {
-    height:230px !important;
+    height:175px !important;
 
 }
 .bot {
     bottom: 0.5rem;
-    padding-right: 3rem;
-    top: 3rem;
 
     
 }
 .bot >h2 , p ,button {
     font-size: 1rem;
+
    
 }
 .item {
     text-align: center;
+}
+.padding {
+    padding-top: 5rem;
 }
 }

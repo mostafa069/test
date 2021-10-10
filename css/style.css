@@ -9,6 +9,7 @@ body{
     font-family: "dana";
     src: url(../font/dana-medium\ \(2\).ttf) ;
 }
+
 .data {
   justify-content: center !important;
   width: 0 !important;
@@ -79,4 +80,55 @@ background:#27323a ;
 }
 .section-3 {
     background:#333 ;
+}
+.bg-dark{
+    position: relative;
+}
+/* .bg-dark img {
+    position: relative;
+    z-index: 1;
+} */
+ .dark-1 {
+
+    z-index: -1;
+    color: blue;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 2.5rem;
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 4rem;
+    
+} 
+.bg-dark:hover .dark-1 {
+    z-index: 1;
+    
+}
+ .span-1 {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    transition: all 0.3s;
+} 
+.bg-dark:hover .span-1 {
+    top: 3px;
+}
+.section-4 {
+    background: #283139;
+}
+.bii {
+    font-size: 6rem;
+    color: #ec6d5f;
+}
+.biii {
+    font-size:6rem;
+    color: #1fa0e3;
+}
+.biit {
+    font-size: 6rem;
+    color: #47bfa4;
 }
