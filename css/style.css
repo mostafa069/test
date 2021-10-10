@@ -9,6 +9,7 @@ body{
     font-family: "dana";
     src: url(../font/dana-medium\ \(2\).ttf) ;
 }
+
 .data {
   justify-content: center !important;
   width: 0 !important;
@@ -106,13 +107,13 @@ background:#27323a ;
     z-index: 1;
     
 }
- span {
+ .span-1 {
     position: relative;
     top: 30px;
     left: 0px;
     right: 0px;
     transition: all 0.3s;
 } 
-.bg-dark:hover span {
+.bg-dark:hover .span-1 {
     top: 3px;
 }
