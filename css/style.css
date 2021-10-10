@@ -80,3 +80,39 @@ background:#27323a ;
 .section-3 {
     background:#333 ;
 }
+.bg-dark{
+    position: relative;
+}
+/* .bg-dark img {
+    position: relative;
+    z-index: 1;
+} */
+ .dark-1 {
+
+    z-index: -1;
+    color: blue;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 2.5rem;
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 4rem;
+    
+} 
+.bg-dark:hover .dark-1 {
+    z-index: 1;
+    
+}
+ span {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    transition: all 0.3s;
+} 
+.bg-dark:hover span {
+    top: 3px;
+}
