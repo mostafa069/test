@@ -1,4 +1,4 @@
-htm {
+html {
     font-size: 100%;
     
 }
@@ -17,23 +17,29 @@ body{
 .pad {
     padding-right: 17rem !important;
 }
-input [type=text] {
- width: 130px;
-box-sizing: border-box;
-border: 2px solid #ccc;
-border-radius: 4px;
-font-size: 16px;
-background-color: white;
-background-image: url("https://img.icons8.com/windows/32/000000/search--v1.png");
-background-position: 10px 10px; 
-background-repeat: no-repeat;
-padding: 12px 20px 12px 40px;
-transition: width 0.4s ease-in-out;
+form {
+position: absolute;
+    z-index: 1;
+    top: 21px;
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+form input {
+    border: none;
+    padding: 1rem;
 }
 
-input[type=text]:focus {
-width: 100%;
+  /* .btn-close:checked form {
+      display: none;
+  } */
+  form:active {
+    display: none;
 }
+.img-1:checked form {
+display: block;
+}
+  
 .btn i {
     display: none;
 }
@@ -151,3 +157,28 @@ footer li::before {
     width: 130px;
  
 }
+.bii ,.biii ,.biit {
+    transition: 1s;
+
+}
+ .bii:hover {
+    color: thistle;
+    font-size: 7rem;
+}
+.biii:hover {
+    color: thistle;
+    font-size: 7rem;
+}
+ .biit:hover {
+    color: thistle;
+    font-size: 7rem;
+ }
+ .bi-1 {
+     position: relative;
+     animation: mymove 2s infinite;
+ }
+ @keyframes mymove {
+    0% {bottom: 0px;}
+    0% {bottom: 0; left: 40px;}
+    100% {top: 50px;}
+  }

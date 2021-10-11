@@ -60,4 +60,11 @@
 .span-1 {
     top: -14px !important;
 }
+.develop {
+    transition: unset;
+    width: 50%;
+}
+ .bii ,.biii ,.biit {
+     font-size: 6rem !important;
+ }
 }
