@@ -177,8 +177,8 @@ footer li::before {
      position: relative;
      animation: mymove 2s infinite;
  }
- /* @keyframes mymove {
+  @keyframes mymove {
     0% {bottom: 0px;}
     0% {bottom: 0; left: 40px;}
     100% {top: 50px;}
-  } */
+  } 
